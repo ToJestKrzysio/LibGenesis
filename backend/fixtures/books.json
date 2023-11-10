@@ -1,0 +1,510 @@
+[
+  {
+    "model": "books.book",
+    "pk": "338ddf0e-0d87-434d-86cb-ef48f4960c60",
+    "fields": {
+      "title": "The Hobbit",
+      "publication_date": "1937-09-21",
+      "isbn": "9780261102217",
+      "created_at": "2023-11-10T18:05:44.460Z",
+      "updated_at": "2023-11-10T18:05:44.460Z",
+      "updated_by": null,
+      "authors": [
+        "03b061f2-2b16-43c0-8dfe-37e6fabfd693"
+      ],
+      "genres": [
+        "495ad505-c97d-437f-a72f-ec2aa5f2dfe1",
+        "95198201-af22-450f-9133-18bd7d25fcae"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "53293529-2f10-45e1-a614-2254ad5d79a2",
+    "fields": {
+      "title": "It",
+      "publication_date": "1986-09-15",
+      "isbn": "9780450386179",
+      "created_at": "2023-11-10T18:04:22.802Z",
+      "updated_at": "2023-11-10T18:04:22.802Z",
+      "updated_by": 1,
+      "authors": [
+        "26ac3f46-ae92-495c-9c3d-d431b4da5957"
+      ],
+      "genres": [
+        "286542e4-0691-4841-a1e3-97d09cc8bb11",
+        "e48dc4f4-6955-4b06-a761-2a15a760fe61"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "65368475-4592-4763-b344-62e9b66676c0",
+    "fields": {
+      "title": "The Sign of the Four",
+      "publication_date": "1890-01-01",
+      "isbn": "9780140439076",
+      "created_at": "2023-11-10T18:11:08.759Z",
+      "updated_at": "2023-11-10T18:11:08.759Z",
+      "updated_by": 1,
+      "authors": [
+        "4924cf40-f525-40a7-8bf5-3c1ead08a153"
+      ],
+      "genres": [
+        "03270cd8-9229-4d55-aef7-a86e8b581874",
+        "8b85c6b1-25dc-4e64-b257-5ae2df7a5003"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "66071686-de51-4a44-a9ae-033f087f8b52",
+    "fields": {
+      "title": "The Murder of Roger Ackroyd",
+      "publication_date": "1926-06-19",
+      "isbn": "9780062073563",
+      "created_at": "2023-11-10T18:05:17.692Z",
+      "updated_at": "2023-11-10T18:05:17.692Z",
+      "updated_by": 1,
+      "authors": [
+        "aac492a4-3b80-4d78-9e74-183f8aa05e8d"
+      ],
+      "genres": [
+        "03270cd8-9229-4d55-aef7-a86e8b581874",
+        "8b85c6b1-25dc-4e64-b257-5ae2df7a5003"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "6d6c8d2c-bc82-48a4-a0b8-81965672d582",
+    "fields": {
+      "title": "1984",
+      "publication_date": "1949-06-08",
+      "isbn": "9780451524935",
+      "created_at": "2023-11-10T18:02:39.148Z",
+      "updated_at": "2023-11-10T18:02:39.148Z",
+      "updated_by": 1,
+      "authors": [
+        "a6d56b2f-87a3-4168-a12d-685d3b7014af"
+      ],
+      "genres": [
+        "b920b89f-cec1-4c83-971b-b2c79879a674",
+        "d09c876e-9cf3-4966-9334-e8866495ad52"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "6fe02f84-4d96-4bd1-8546-a7dcfb14d1ef",
+    "fields": {
+      "title": "The Shining",
+      "publication_date": "1977-01-28",
+      "isbn": "9780385121675",
+      "created_at": "2023-11-10T18:03:54.502Z",
+      "updated_at": "2023-11-10T18:03:54.502Z",
+      "updated_by": 1,
+      "authors": [
+        "26ac3f46-ae92-495c-9c3d-d431b4da5957"
+      ],
+      "genres": [
+        "286542e4-0691-4841-a1e3-97d09cc8bb11",
+        "e48dc4f4-6955-4b06-a761-2a15a760fe61"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "a789f6a4-b7fc-4b6c-b480-9f5c31c46ee0",
+    "fields": {
+      "title": "A Study in Scarlet",
+      "publication_date": "1887-01-01",
+      "isbn": "9780938501329",
+      "created_at": "2023-11-10T18:10:29.548Z",
+      "updated_at": "2023-11-10T18:10:29.548Z",
+      "updated_by": 1,
+      "authors": [
+        "4924cf40-f525-40a7-8bf5-3c1ead08a153"
+      ],
+      "genres": [
+        "03270cd8-9229-4d55-aef7-a86e8b581874",
+        "8b85c6b1-25dc-4e64-b257-5ae2df7a5003"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "b3d3868a-ab33-49c7-ab85-6fb9789e742c",
+    "fields": {
+      "title": "To Kill a Mockingbird",
+      "publication_date": "1960-07-11",
+      "isbn": "9780061120084",
+      "created_at": "2023-11-10T18:06:38.721Z",
+      "updated_at": "2023-11-10T18:06:38.721Z",
+      "updated_by": 1,
+      "authors": [
+        "ee546d99-c43a-4bd2-a032-233f61060beb"
+      ],
+      "genres": [
+        "d062c169-44a2-44a0-a62c-7a16e0357821"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "b7dae75e-f9ef-4fb2-b214-28a8dc663e52",
+    "fields": {
+      "title": "The Lord of the Rings",
+      "publication_date": "1954-07-29",
+      "isbn": "9780261102385",
+      "created_at": "2023-11-10T18:06:00.466Z",
+      "updated_at": "2023-11-10T18:06:00.466Z",
+      "updated_by": null,
+      "authors": [
+        "03b061f2-2b16-43c0-8dfe-37e6fabfd693"
+      ],
+      "genres": [
+        "495ad505-c97d-437f-a72f-ec2aa5f2dfe1",
+        "95198201-af22-450f-9133-18bd7d25fcae"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "bb18a7db-bc83-4c66-8854-60042fdc9784",
+    "fields": {
+      "title": "Sense and Sensibility",
+      "publication_date": "1811-10-30",
+      "isbn": "1811-10-30",
+      "created_at": "2023-11-10T18:02:01.040Z",
+      "updated_at": "2023-11-10T18:02:01.040Z",
+      "updated_by": 1,
+      "authors": [
+        "d85aab2e-481c-4ef4-8e20-25f13a647248"
+      ],
+      "genres": [
+        "907c20be-a3a4-4a3e-8399-90a40158f252",
+        "d062c169-44a2-44a0-a62c-7a16e0357821"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "c226ea4f-e4d0-405f-8c95-2bb72427baac",
+    "fields": {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "publication_date": "1997-06-26",
+      "isbn": "9780590353427",
+      "created_at": "2023-11-10T18:03:24.765Z",
+      "updated_at": "2023-11-10T18:03:24.765Z",
+      "updated_by": 1,
+      "authors": [
+        "1bcdfdc6-6805-4df7-b10b-96d2f6420147"
+      ],
+      "genres": [
+        "95198201-af22-450f-9133-18bd7d25fcae"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "d201befe-f16e-4335-935b-1ef8e6f5f35c",
+    "fields": {
+      "title": "Tender Is the Night",
+      "publication_date": "1934-04-12",
+      "isbn": "9780684801544",
+      "created_at": "2023-11-10T18:07:55.728Z",
+      "updated_at": "2023-11-10T18:07:55.728Z",
+      "updated_by": 1,
+      "authors": [
+        "e3fdb54e-00d1-4384-a00d-95233b9a2f51"
+      ],
+      "genres": [
+        "907c20be-a3a4-4a3e-8399-90a40158f252",
+        "d062c169-44a2-44a0-a62c-7a16e0357821"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "d36346e9-7a15-4dfa-8c4e-0ebafd41e0f9",
+    "fields": {
+      "title": "Pride and Prejudice",
+      "publication_date": "1813-01-28",
+      "isbn": "9780141439518",
+      "created_at": "2023-11-10T18:01:40.991Z",
+      "updated_at": "2023-11-10T18:01:40.991Z",
+      "updated_by": 1,
+      "authors": [
+        "d85aab2e-481c-4ef4-8e20-25f13a647248"
+      ],
+      "genres": [
+        "907c20be-a3a4-4a3e-8399-90a40158f252",
+        "d062c169-44a2-44a0-a62c-7a16e0357821"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "e1daf97e-a14a-474a-a315-b378b9d180b5",
+    "fields": {
+      "title": "Animal Farm",
+      "publication_date": "1945-08-17",
+      "isbn": "9780451526342",
+      "created_at": "2023-11-10T18:03:01.337Z",
+      "updated_at": "2023-11-10T18:03:01.337Z",
+      "updated_by": 1,
+      "authors": [
+        "a6d56b2f-87a3-4168-a12d-685d3b7014af"
+      ],
+      "genres": [
+        "28b4e9f6-c07e-46c8-8e91-b7195399de4c",
+        "b920b89f-cec1-4c83-971b-b2c79879a674"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "e83e7119-300e-4f12-8962-b46a997970a6",
+    "fields": {
+      "title": "The Great Gatsby",
+      "publication_date": "1925-04-10",
+      "isbn": "9780743273565",
+      "created_at": "2023-11-10T18:07:36.385Z",
+      "updated_at": "2023-11-10T18:07:36.385Z",
+      "updated_by": 1,
+      "authors": [
+        "e3fdb54e-00d1-4384-a00d-95233b9a2f51"
+      ],
+      "genres": [
+        "907c20be-a3a4-4a3e-8399-90a40158f252",
+        "d062c169-44a2-44a0-a62c-7a16e0357821"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "e98de846-60b6-420f-8cde-27660cb705f3",
+    "fields": {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "publication_date": "1998-07-02",
+      "isbn": "9780439064873",
+      "created_at": "2023-11-10T18:03:37.913Z",
+      "updated_at": "2023-11-10T18:03:37.913Z",
+      "updated_by": 1,
+      "authors": [
+        "1bcdfdc6-6805-4df7-b10b-96d2f6420147"
+      ],
+      "genres": [
+        "95198201-af22-450f-9133-18bd7d25fcae"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "e994fe26-8777-4069-a638-84da424121c8",
+    "fields": {
+      "title": "Go Set a Watchman",
+      "publication_date": "2015-07-14",
+      "isbn": "9780062409850",
+      "created_at": "2023-11-10T18:07:03.756Z",
+      "updated_at": "2023-11-10T18:07:03.756Z",
+      "updated_by": 1,
+      "authors": [
+        "ee546d99-c43a-4bd2-a032-233f61060beb"
+      ],
+      "genres": [
+        "4c08426e-81ca-470f-8b5e-34f28eb9537c"
+      ]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": "f08694d8-f941-4515-9d85-fd966a3768e2",
+    "fields": {
+      "title": "Murder on the Orient Express",
+      "publication_date": "1934-01-01",
+      "isbn": "9780007119318",
+      "created_at": "2023-11-10T18:05:00.907Z",
+      "updated_at": "2023-11-10T18:05:00.907Z",
+      "updated_by": 1,
+      "authors": [
+        "aac492a4-3b80-4d78-9e74-183f8aa05e8d"
+      ],
+      "genres": [
+        "03270cd8-9229-4d55-aef7-a86e8b581874",
+        "8b85c6b1-25dc-4e64-b257-5ae2df7a5003"
+      ]
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "03270cd8-9229-4d55-aef7-a86e8b581874",
+    "fields": {
+      "name": "Mystery"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "1a26b623-17b5-4b23-adfa-3c429f6d76b3",
+    "fields": {
+      "name": "Science Fiction"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "286542e4-0691-4841-a1e3-97d09cc8bb11",
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "28b4e9f6-c07e-46c8-8e91-b7195399de4c",
+    "fields": {
+      "name": "Satire"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "495ad505-c97d-437f-a72f-ec2aa5f2dfe1",
+    "fields": {
+      "name": "Adventure"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "4c08426e-81ca-470f-8b5e-34f28eb9537c",
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "8b85c6b1-25dc-4e64-b257-5ae2df7a5003",
+    "fields": {
+      "name": "Crime"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "907c20be-a3a4-4a3e-8399-90a40158f252",
+    "fields": {
+      "name": "Romance"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "95198201-af22-450f-9133-18bd7d25fcae",
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "b920b89f-cec1-4c83-971b-b2c79879a674",
+    "fields": {
+      "name": "Fiction"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "d062c169-44a2-44a0-a62c-7a16e0357821",
+    "fields": {
+      "name": "Classic"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "d09c876e-9cf3-4966-9334-e8866495ad52",
+    "fields": {
+      "name": "Dystopian"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "e399b499-e676-4d42-b726-20f48af93cee",
+    "fields": {
+      "name": "Biography"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": "e48dc4f4-6955-4b06-a761-2a15a760fe61",
+    "fields": {
+      "name": "Thriller"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "03b061f2-2b16-43c0-8dfe-37e6fabfd693",
+    "fields": {
+      "first_name": "J.R.R",
+      "last_name": "Tolkien"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "1bcdfdc6-6805-4df7-b10b-96d2f6420147",
+    "fields": {
+      "first_name": "J.K.",
+      "last_name": "Rowling"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "26ac3f46-ae92-495c-9c3d-d431b4da5957",
+    "fields": {
+      "first_name": "Stephen",
+      "last_name": "King"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "4924cf40-f525-40a7-8bf5-3c1ead08a153",
+    "fields": {
+      "first_name": "Arthur Conan",
+      "last_name": "Doyle"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "a6d56b2f-87a3-4168-a12d-685d3b7014af",
+    "fields": {
+      "first_name": "George",
+      "last_name": "Orwell"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "aac492a4-3b80-4d78-9e74-183f8aa05e8d",
+    "fields": {
+      "first_name": "Agatha",
+      "last_name": "Christie"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "d85aab2e-481c-4ef4-8e20-25f13a647248",
+    "fields": {
+      "first_name": "Jane",
+      "last_name": "Austen"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "e3fdb54e-00d1-4384-a00d-95233b9a2f51",
+    "fields": {
+      "first_name": "F. Scott",
+      "last_name": "Fitzgerald"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": "ee546d99-c43a-4bd2-a032-233f61060beb",
+    "fields": {
+      "first_name": "Harper",
+      "last_name": "Lee"
+    }
+  }
+]
