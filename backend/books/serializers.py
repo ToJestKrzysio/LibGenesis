@@ -6,16 +6,16 @@ from . import models
 class BookSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Book
-        fields = ["*"]
+        fields = "__all__"
 
 
-class Genre(serializers.ModelSerializer):
+class GenreSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Genre
-        fields = ["*"]
+        fields = "__all__"
 
 
-class Author(serializers.ModelSerializer):
+class AuthorSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Author
-        fields = ["*"]
+        fields = "__all__"

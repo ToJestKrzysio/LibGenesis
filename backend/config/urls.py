@@ -6,15 +6,15 @@ from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 
-admin.site.site_title = "PicSizer"
-admin.site.site_header = "PicSizer"
-admin.site.index_title = "PicSizer"
+admin.site.site_title = "Library Genesis"
+admin.site.site_header = "Library Genesis"
+admin.site.index_title = "Library Genesis"
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="PicSizer API",
+        title="Library Genesis API",
         default_version='v1',
-        description="REST API used for image manipulation",
+        description="REST API for library inventory management",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="krzysztof.plonka64@gmail.com"),
         license=openapi.License(name="BSD License"),
@@ -31,6 +31,7 @@ urlpatterns = [
             name='schema-swagger-ui'),
     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('admin/', admin.site.urls),
+    path("api/v1/", include("books.urls"))
 ]
 
 if settings.DEBUG:
